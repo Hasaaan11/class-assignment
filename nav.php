@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+	background-color:#f0f0f0;
+    width: auto;
+    height: auto;
+	}
+	.navbar{
+	background-color: #333;
+    color: #fff;
+	}
+	.navbar ul {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+	
+}
+.navbar li {
+    margin: 15px;
+	float:right;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar a:hover {
+    color: #ff7f00;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+header {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+	margin-left: 10px;
+	float:right;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 1.5rem; 
+    margin-right:20px; 
+}
+                                               /* Dropdown css */
+
+
+.dropbtn {
+    background-color:  #333;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+      .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:#ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+ 
+
+
+
+/* footer css */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    text-align: center;
+    color: #007BFF;
+}
+
+.map {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.contact-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subheader {
+    font-size: 24px;
+    color: #333;
+}
+
+.input-field,
+.message-field {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+#video{
+
+    width: 100%;
+    height: 300px;
+display: inline-block;
+    margin-bottom: 1px;
+}
+
+.cardiv{
+    display: inline-block;
+    width: 33%;
+    height: 450px;
+    
+
+}
+ @media (max-width: 600px){
+.cardiv{
+width : 100%;
+}
+}
+
+
+.tshirtimg{
+    width: 100%;
+    height: 100%;
+}
+
+#videointernal{
+    width: 100%;
+    height: 355px;
+}
+#home{
+    background-color: black;
+    color: gray;
+    margin-top: -16px;
+    height: 358px;
+    
+}
+
+.cardiv a:hover{
+
+    background-color: black;
+    
+}
+
+.mainorder{
+    min-width: auto;
+    background-color: black;
+    height: 500px;
+    margin-top: -20px;
+}
+
+.orderimg{
+    display: inline-block;
+    width: 25%;
+    height: 350px;
+    margin-top: -350px;
+   padding-right: 5px;
+}
+
+#form{
+    width: auto;
+}
+
+.about{
+    background-color: #bfbfbf;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    
+    <img src="logo.png" alt="Website Logo" width="100px"></div>
+    <div class="social-icons">
+        
+        <a href="http://www.facebook.com"><i class="fab fa-facebook" ></i></a> <!-- Facebook icon -->
+        <a href="http://www.Instagram.com"><i class="fab fa-instagram"></i></a> <!-- Instagram icon -->
+    </div>
+<nav class="navbar" style="margin-top: -15px;">
+
+        <ul>  
+			<li><a href="Home.php">Home</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Products</button>
+                    <div class="dropdown-content">
+                      <a href="tshirs.html">T-shirts</a>
+                      <!-- <a href="hoodies.html">Hoodies</a>
+                      <a href="fullsleves.html">Full Sleeves Tees</a> -->
+                    </div>
+                </div>
+            </li>
+            <li><a href="About page.php">About</a></li>
+            <li><a href="Contact.php">Contact</a></li>
+            <li><a href="login.php">login</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
